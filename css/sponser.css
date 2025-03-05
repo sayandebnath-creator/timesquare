@@ -1,0 +1,73 @@
+.woocommerce .columns-4{
+    font-family: Arial, sans-serif !important;
+    margin: 0 !important;
+    padding: 40px;
+    display: flex !important;
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+    gap: 20px !important;
+}
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+}
+
+.card h2 {
+    font-size: 18px;
+    background: #d35400;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.card .price {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.card ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.card ul li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.card ul li::before {
+    content: '✔';
+    color: #27ae60;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.card button {
+    background: #e67e22;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background 0.3s;
+}
+
+.card button:hover {
+    background: #d35400;
+}
