@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glamorous Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #8B0000, #FFD700);
+            font-family: "Times New Roman", serif;
+        }
+        .container {
+            max-width: 600px;
+            background: rgba(0, 0, 0, 0.7);
+            backdrop-filter: blur(15px);
+            box-shadow: 0 15px 40px rgba(255, 215, 0, 0.6);
+            border-radius: 20px;
+            padding: 30px;
+            text-align: center;
+            border: 3px solid gold;
+            color: white;
+        }
+        h2 {
+            font-size: 2.5em;
+            color: gold;
+            text-shadow: 0px 0px 15px rgba(255, 215, 0, 1);
+        }
+        p {
+            font-size: 1.3em;
+            color: gold;
+            text-shadow: 0px 0px 10px rgba(255, 215, 0, 0.7);
+        }
+        .button {
+            display: inline-block;
+            padding: 14px 28px;
+            font-size: 1.3em;
+            font-weight: bold;
+            background: linear-gradient(to right, #8B0000, #FFD700);
+            color: white;
+            border: 2px solid gold;
+            border-radius: 35px;
+            cursor: pointer;
+            box-shadow: 0 7px 20px rgba(255, 215, 0, 0.7);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .button:hover {
+            transform: scale(1.15);
+            box-shadow: 0 12px 30px rgba(255, 215, 0, 1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Welcome to Glamour</h2>
+        <p>Immerse yourself in the radiance of luxury with deep red and glowing gold.</p>
+        <button class="button">Step into Elegance</button>
+    </div>
+</body>
+</html>
