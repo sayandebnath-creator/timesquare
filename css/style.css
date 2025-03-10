@@ -1593,9 +1593,9 @@ pre.wp-block-verse {
   /* display: flex; */
   /* flex-direction: column; */
   /* align-items: center; */
-  /* background: rgba(255, 225, 0, 0.9); */
+  /* background: rgb(255, 225, 0); */
   padding: 10px 0 !important;
-  border-radius: 67px;
+  /* border-radius: 32px; */
   box-shadow: 13px 11px 22px rgba(0, 0, 0, 44%);
   width: 19% !important;
   /* text-shadow: 4px 4px 4px #c0bcbc; */
@@ -1734,12 +1734,20 @@ pre.wp-block-verse {
     /* align-items: center; */
     /* background: rgba(255, 225, 0, 0.9); */
     padding: 10px 0 !important;
-    border-radius: 67px;
+    /* border-radius: 32px; */
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 44%);
     width: 25% !important;
     /* text-shadow: 4px 4px 4px #c0bcbc; */
   
     /* border: 3px solid gold; */
     /* min-width: 100px; */
+  }
+}
+
+@media only screen and (max-width: 667px) {
+  .countdown-amount {
+      font-size: 35px !important;
+      line-height: 28px !important;
+      margin-bottom: 0px !important;
   }
 }
